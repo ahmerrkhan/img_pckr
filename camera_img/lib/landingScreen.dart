@@ -66,15 +66,6 @@ class _landingScreenState extends State<landingScreen> {
         );
   }
 
-  Widget _decideView(){
-    if(_image == null){
-    return  Text("nothing selected");
-    }
-    else{
-      Image.file(_image,width: 400,height: 400,);
-    }
-  }
-
 
   @override
   Widget build(BuildContext context) {
