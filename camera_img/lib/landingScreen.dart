@@ -28,7 +28,7 @@ class _landingScreenState extends State<landingScreen> {
 
 
 
-  _openCamera(BuildContext context) async {
+  Future<void> _openCamera(BuildContext context) async {
     final pickedImage = await picker.getImage(source: ImageSource.camera);
     if (pickedImage != null) {
       setState(() {
