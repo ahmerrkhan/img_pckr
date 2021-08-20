@@ -1,4 +1,4 @@
-import 'dart:io'; as alias asasas  as
+import 'dart:io'; as alias asa
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
