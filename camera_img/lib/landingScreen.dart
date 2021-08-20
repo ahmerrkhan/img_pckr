@@ -1,4 +1,4 @@
-import 'dart:io'; as al
+import 'dart:io'; as
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
